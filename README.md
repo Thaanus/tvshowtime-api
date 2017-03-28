@@ -1,11 +1,19 @@
 # TVShowTime - API
 
-PythonTvstAPI is a Pythonic API wrapper over the [TVShowTime](tvshowtime.com) REST API. It is a thin wrapper around all of the methods present in the current TVShowTime API specification.
+PythonTvstAPI is a Pythonic API wrapper over the [TVShowTime](tvshowtime.com) REST API. It is a thin wrapper around all of the methods present in the current TVShowTime API specification. It is compatible with Pyhton 3.
 
 Read the latest [TVShowTime API docs](https://api.tvshowtime.com/doc).
 
 ## Install
+Do it by cloning this repository
+	
+	git clone https://github.com/onanypoint/tvshowtime-api tvst
+	cd tvst
+	pip install -e .
+	
+Or directly from github
 
+	pip install git+git://github.com/onanypoint/tvshowtime-api@master
 
 ## How to Use
 	# Load API wrapper from library
